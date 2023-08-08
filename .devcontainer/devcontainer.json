@@ -16,10 +16,11 @@
 				"ms-vscode.cpptools",
 				"GitHub.copilot",
 				"GitHub.copilot-chat",
-				"ms-python.python"
+				"ms-python.python",
+				"ms-vscode.cpptools-extension-pack"
 			]
 		}
-	}
+	},
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
@@ -27,8 +28,7 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
-	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "uname -a",
+	"postCreateCommand": "bash ./.devcontainer/postCreateCommand.sh",
 
 	// Configure tool-specific properties.
 	// "customizations": {},
