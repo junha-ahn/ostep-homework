@@ -2,6 +2,9 @@ You can see how to run `malloc.py` [here](https://github.com/remzi-arpacidusseau
 
 ## TIL
 
+- There are memory allocation policies such as BEST, WORST, and FIRST, which lead to different sequences and outcomes of allocating empty spaces based on their order.
+- Coalescing involves merging empty spaces to maintain larger contiguous blocks, enhancing the efficiency of memory management.
+
 ## Task 1
 
 ```shell
