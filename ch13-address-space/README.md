@@ -5,7 +5,7 @@
 - `Resident Set Size (RSS)` indicates the actual physical memory used by a process. 
 
 
-## Task 4
+## Question 4
 
 `used` memory increases upon program execution (1832M => 1929M)
 
@@ -28,7 +28,7 @@ Mem:            3913        1839         210           4        1864        1771
 Swap:              0           0           0
 ```
 
-## Task 8
+## Question 8
 
 RSS(Resident Set Size): the actual amount of physical memory currently used by a process.
 

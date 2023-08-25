@@ -5,7 +5,7 @@ You can see how to run `paging-linear-translate.py` [here](https://github.com/re
 - The concepts of virtual memory and page tables.
 - examples of virtual address translation.
 
-## Task 1
+## Question 1
 
 ### Change of Address space size
 | Example Number | Address Space Size | Page Table Entry Count |
@@ -23,7 +23,7 @@ You can see how to run `paging-linear-translate.py` [here](https://github.com/re
 | 3              | 1M                  | 4K        | 256      |
 | 4              | 1M                  | 8K        | 128      |
 
-## Task 2
+## Question 2
 
 | Experiment Number | Valid Address Ratio | Successful Address Translation Ratio |
 |-------------------|---------------------|-------------------------------------|

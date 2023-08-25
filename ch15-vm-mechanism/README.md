@@ -4,7 +4,7 @@ You can see how to run `relocation.py` [here](https://github.com/remzi-arpacidus
 
 - The roles of address base and limit are to control memory protection and the available address space
 
-## Task 1
+## Question 1
 
 ```shell
 $ python ./relocation.py  -s 1
@@ -26,7 +26,7 @@ Virtual Address Trace
   VA  4: 0x0000029b (decimal:  667) --> PA or segmentation violation? # SEGMENTATION VIOLATION
 ```
 
-## Task 2
+## Question 2
 
 ```shell
 $ python ./relocation.py  -s 1 -n 10
@@ -55,7 +55,7 @@ Virtual Address Trace
 
 When using the option `-l 868`, all virtual addresses are valid
 
-## Task 3
+## Question 3
 
 ```shell
 $ python ./relocation.py  -s 1 -n 10 -l 100 -c
@@ -85,6 +85,6 @@ Virtual Address Trace
 There is no difference when changing the start of the base address.
 
 
-## Task 4
+## Question 4
 
 There is no difference when changing the size of address space or physical memory

@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "sched.h": "c",
+        "unistd.h": "c",
+        "stdio.h": "c"
+    }
+}

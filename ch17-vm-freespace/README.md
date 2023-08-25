@@ -5,7 +5,7 @@ You can see how to run `malloc.py` [here](https://github.com/remzi-arpacidusseau
 - There are memory allocation policies such as BEST, WORST, and FIRST, which lead to different sequences and outcomes of allocating empty spaces based on their order.
 - Coalescing involves merging empty spaces to maintain larger contiguous blocks, enhancing the efficiency of memory management.
 
-## Task 1
+## Question 1
 
 ```shell
 $ python malloc.py -n 10 -H 0 -p BEST -s 0 -c
@@ -58,7 +58,7 @@ ptr[5] = Alloc(7) returned 1008 (searched 4 elements)
 Free List [ Size 4 ]: [ addr:1002 sz:1 ][ addr:1003 sz:5 ][ addr:1015 sz:1 ][ addr:1016 sz:84 ]
 ```
 
-## Task 2
+## Question 2
 
 ```shell
 $ python malloc.py -n 10 -H 0 -p WORST  -s 0 -c
@@ -67,7 +67,7 @@ $ python malloc.py -n 10 -H 0 -p WORST  -s 0 -c
 BEST allocation retrieves existing free memory of size 8, but WORST allocates memory from the currently largest available space.
 
 
-## Task 3
+## Question 3
 
 ```shell
 $ python malloc.py -n 10 -H 0 -p FIRST -s 0
@@ -75,7 +75,7 @@ $ python malloc.py -n 10 -H 0 -p FIRST -s 0
 
 Due to the use of ADDRSORT, there is no significant difference between FIRST allocation and BEST allocation
 
-## Task 4
+## Question 4
 
 ```shell
 $ python malloc.py -n 10 -H 0 -p FIRST -s 0 -l
@@ -91,7 +91,7 @@ $ python malloc.py -n 10 -H 0 -p BEST -s 0 -l SIZESORT-
 The "FIRST" method allocates memory in the order it finds suitable spaces, so the order of allocation changes based on how the spaces are sorted. This leads to different results.
 
 
-## TASK 5
+## Question 5
 
 
 ```shell

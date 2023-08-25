@@ -4,7 +4,7 @@
 - Pointer-related programming errors
 
 
-## Task 1
+## Question 1
 
 ```shell$ 
 $ gcc -o null null.c
@@ -12,7 +12,7 @@ $ ./null
 Segmentation fault (core dumped)
 ```
 
-## Task 2
+## Question 2
 
 ```shell
 $ ./gdb null
@@ -50,7 +50,7 @@ Cannot access memory at address 0x0
 $1 = (int *) 0x0
 ```
 
-## Task 3
+## Question 3
 
 ```shell
 valgrind --leak-check=yes ./null
@@ -88,7 +88,7 @@ You can check `Invalid read of size 4` while execute `printf("result : %d\n", *p
 
 In the case there is no heap memory in use and no memory has been allocated/deallocated upon program termination, no memory leaks occur.
 
-## Task 4
+## Question 4
 
 ```shell
  $ gdb nofree
@@ -153,7 +153,7 @@ Value: 5
 
 `definitely lost: 4 bytes in 1 blocks`
 
-# Task 5
+# Question 5
 
 ```shell
 $ valgrind --leak-check=yes ./clear_array
@@ -175,7 +175,7 @@ $ valgrind --leak-check=yes ./clear_array
 
 `int data[100]` is allocated on the stack, and the stack is deallocated upon the end of function execution, so there is no memory leakage.
 
-## Task 7
+## Question 7
 
 ```shell
 $ gcc -o invalid_free invalid_free.c
