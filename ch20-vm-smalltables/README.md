@@ -1,7 +1,5 @@
 You can see how to run `paging-multilevel-translate` [here](https://github.com/remzi-arpacidusseau/ostep-homework/tree/master/vm-smalltables)
 
-## TIL
-
 ## Question 1
 
 One Register enough to refer other page directory 
