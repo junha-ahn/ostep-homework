@@ -1,5 +1,3 @@
-## TIL
-
 ## Question 1
 
 As you can see, User time increase 
